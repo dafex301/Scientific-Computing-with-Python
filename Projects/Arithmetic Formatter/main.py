@@ -61,18 +61,4 @@ def arithmetic_arranger(arithmetics, answer=False):
         return firstLine + "\n" + secondLine + "\n" + thirdLine
 
 
-
-
-
-print(arithmetic_arranger(['1 + 2', '1 - 9380']))
-
-
-def calculations(num1, num2, operator):
-    if operator == '+':
-        result = num1 + num2
-        return result
-    elif operator == '-':
-        result = num1 - num2
-        return result
-    else:
-        return "Error: Operator must be '+' or '-'"
+print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"], True))
