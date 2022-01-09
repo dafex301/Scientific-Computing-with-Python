@@ -14,7 +14,7 @@ auto = budget.Category("Auto")
 auto.deposit(1000, "initial deposit")
 auto.withdraw(15)
 
-# print(food)
-# print(clothing)
+print(food)
+print(clothing)
 
-print(repr(create_spend_chart([food, clothing, auto])))
+# print(repr(create_spend_chart([food, clothing, auto])))
